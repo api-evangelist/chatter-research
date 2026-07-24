@@ -1,9 +1,27 @@
 aid: chatter-research
 name: Chatter Research
-description: Chatter Research is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Chatter Research (now Chatter by Stingray) is a customer feedback and experience
+  management platform built for modern retailers. It engages shoppers in AI-driven conversational
+  text-message and QR-code surveys that deliver higher response rates and real-time feedback,
+  then uses the Stingray-Chatter AI (trained on 7000+ retail topics) to categorize free-text
+  replies into topics and sentiment. Role-based dashboards surface NPS/CSAT, benchmarks, topic
+  explorers, and NPS boosters so store teams can save lost sales, drive loyalty enrollment, and
+  generate online reviews. Founded in 2016 and acquired by Stingray, the company is a former
+  500 Global portfolio company. The product is a SaaS dashboard with a help center and CSV data
+  exports; it publishes no public developer API at this time.
 url: https://raw.githubusercontent.com/api-evangelist/chatter-research/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.chatterresearch.com/wp-content/uploads/2022/08/Chatter_by_Stingray_Main_featured_image-3.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Customer Feedback
+- Customer Experience
+- Surveys
+- Voice of Customer
+- Retail
+- NPS
+- Sentiment Analysis
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +47,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/chatter-research-domain-security.yml
 - type: Website
   url: https://chatterresearch.com
+- type: Documentation
+  url: https://www.help.chatterresearch.com/
+- type: Support
+  url: https://www.chatterresearch.com/contact-us/
+- type: Blog
+  url: https://www.chatterresearch.com/blog/
+- type: SignUp
+  url: https://www.chatterresearch.com/demo/
+- type: PrivacyPolicy
+  url: https://www.chatterresearch.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.chatterresearch.com/terms-of-use/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
