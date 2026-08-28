@@ -10,6 +10,17 @@ description: Chatter Research (now Chatter by Stingray) is a customer feedback a
   500 Global portfolio company. The product is a SaaS dashboard with a help center and CSV data
   exports; it publishes no public developer API at this time.
 url: https://raw.githubusercontent.com/api-evangelist/chatter-research/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
